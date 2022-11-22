@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/self-study
+    username: user
+    password: user
+
+  jpa:
+    generate-ddl: true
+
+    hibernate:
+      ddl-auto: create
